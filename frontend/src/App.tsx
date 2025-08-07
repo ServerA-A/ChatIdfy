@@ -169,7 +169,7 @@ function App() {
     localStorage.setItem("name", username);
     ws?.send(JSON.stringify(message));
 
-    toast.success("🦄 Wow so easy!", {
+    toast.success("Joined !", {
       position: "top-right",
       autoClose: 5000,
       hideProgressBar: false,
