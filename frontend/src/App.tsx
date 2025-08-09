@@ -262,7 +262,7 @@ function App() {
                 </button>
               </div>
             </div>
-            <div className="h-full w-[80vh] md:w-[150vh] bg-[#161616] rounded-md">
+            <div className="h-full w-[80vh] md:w-[150vh] bg-[#161616] rounded-md overflow-y-auto scrollbar-hide">
               {msg.map((e, i) => {
                 const isUserMessage = localStorage.getItem("name") === e.name;
                 return (
